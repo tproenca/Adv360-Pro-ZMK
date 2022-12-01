@@ -2,7 +2,7 @@ macro_mac_lock: macro_mac_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_mac_lock";
 #binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp LGUI>, <&kp Q>;
+bindings = <&kp RC(LG(Q))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
